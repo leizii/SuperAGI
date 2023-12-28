@@ -59,7 +59,7 @@ services:
   proxy:
     image: nginx:stable-alpine
     ports:
-      - "3008:80"
+      - "3001:80"
     networks:
       - super_network
     depends_on:
